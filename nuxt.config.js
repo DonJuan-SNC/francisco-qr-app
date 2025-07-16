@@ -18,7 +18,9 @@ export default {
 
   css: [],
 
-  plugins: [],
+  plugins: [
+     { src: '~/plugins/html5-qrcode.client.js', mode: 'client' }
+  ],
 
   components: true,
 
