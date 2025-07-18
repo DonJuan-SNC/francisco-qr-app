@@ -26,9 +26,14 @@
         >
           Sign In
         </v-btn>
-        
+        <div class="d-flex align-center my-2" style="width: 100%;">
+          <v-divider class="flex-grow-1"></v-divider>
+          <span class="mx-4" style="color: #888;">or</span>
+          <v-divider class="flex-grow-1"></v-divider>
+        </div>
 
         <!-- Google Sign-In Button -->
+         
         <v-btn
           class="mb-2"
           color="red"
